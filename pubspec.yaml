@@ -1,0 +1,28 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies:
+  device_preview: ^1.1.0
+  cupertino_icons: "^1.0.5"
+  path_drawing: "^1.0.0"
+  flutter:
+    sdk: "flutter"
+dev_dependencies:
+  flutter_test:
+    sdk: "flutter"
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+flutter:
+  assets:
+    - "assets/images/"
+  fonts:
+    - family: "Kanit"
+      fonts:
+        - asset: "fonts/Kanit-regular.ttf"
+          style: "normal"
+          weight: 400
+        - asset: "fonts/Kanit-300.ttf"
+          style: "normal"
+          weight: 300
+  uses-material-design: true
